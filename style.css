@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Circe' , sans-serif;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product{
+   width: 50%; 
+   justify-content: center;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 40px; 
+}
+
+.product__images{
+    display: flex;
+    flex-direction: row;
+}
+
+.product__images__all{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product__images_big{
+    flex-direction: column;
+}
+
+.product__info{
+    display: flex;
+    flex-direction: column;
+    min-width: 440px;
+}
+
+h1{
+    font-family: 'Circe Bold', sans-serif;
+    margin:0;
+    margin-top:60px;
+}
+
+.product__info__cost{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    max-width: 440px;
+    gap: 70px;
+    font-size: 22px;
+}
+
+
+.product__info__cost__2699{ 
+    color:#d0d1d1;    
+    text-decoration: line-through;
+}
+
+.product__info__cost__ruble{
+ vertical-align: middle;
+ border-bottom: 1px solid;
+ line-height: 3px;
+ display: inline-block;
+ width: 6px;
+}
+
+.product__info__cost__ruble__2{
+    vertical-align: middle;
+    border-bottom: 1px solid;
+    line-height: 3px;
+    display: inline-block;
+    width: 6px;
+   }
+
+.product__info__cost__2499{
+    margin-left:5px;
+    color:#d0d1d1;
+}
+
+.product__info__cost__ruble{
+    color:#d0d1d1; 
+}
+.product__info__cost__promo{
+    margin-left: 5px;
+}
+.product__info__link {
+    display: flex;
+    gap:30px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.product__info__about{
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.product__info__about__text{
+    margin-left: 15px;
+}
+
+.product__info__about__text img{
+    padding-right: 10px;
+}
+
+.product__info__about__button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 40px  ;
+    margin-left: 30px;
+}
+
+.product__info__button__buy{
+    background-color: #006be5;
+    border: 2px solid #006be5;
+    width: 135px;
+    height: 40px;
+    color: white;   
+}
+
+.product__info__button__buy:hover{
+    background-color: #2885ee;
+}
+
+.product__info__button__favorite{
+    background-color: white;
+    border: 2px solid #dedede;
+    width: 135px;
+    height: 40px;
+}
+
+.product__info__button__favorite:hover{
+    background-color: #d0d1d1;
+}
+
+.product__info__about__composition{
+    margin-top: 40px;
+    font-size: 13px;
+    font-family: 'Circe';
+    color:#7b7b7b;
+}
+
+.product__info__share{
+    color:#7b7b7b; 
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;   
+}
+
+.vk, .google, .fb , .twit{
+   width: 15px; 
+   height: 15px;
+   object-fit: contain;
+   border: 2px solid #d0d1d1 ;
+   border-radius: 50%;
+   padding: 8px;
+}
+
+.share{
+    padding: 7px;
+}
+
+.number{
+    background-image: url(square.png) ;
+    position: relative;
+    width: 28px;
+    height: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+input{
+    width: 60px;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #d0d1d1;
+    text-align: center;
+    font-size: 25px;
+}
+
+.product_info_volume{
+    margin-top: 20px;
+    margin-left: 34px;
+    display: flex;
+    gap: -7px;
+}
+
+.product_info_volume button{
+    border-radius: 0;
+    border: 1px solid #d0d1d1;
+    width: 30px;
+    height: 39px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
